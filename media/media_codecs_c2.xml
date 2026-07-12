@@ -86,6 +86,9 @@
  |__________|_____________________________________________________|
 -->
 <Included>
+<!-- add dolby codecs -->
+<Include href="media_codecs_dolby_audio.xml" />
+<!-- dolby codecs -->
     <Decoders>
         <MediaCodec name="c2.qti.avc.decoder" type="video/avc">
             <Alias name="OMX.qcom.video.decoder.avc" />
